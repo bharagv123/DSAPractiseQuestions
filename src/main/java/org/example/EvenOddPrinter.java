@@ -30,7 +30,6 @@ public class EvenOddPrinter {
             }
         }
     }
-
     public void printEven(){
         synchronized (lock) {
             while (counter<=MAX){
